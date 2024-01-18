@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.neon-btn{
+  padding: 1.5rem 3rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+  color: #FAE7F3;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  outline: none;
+  transition-delay: .1s;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.neon-btn:hover{
+  background-color: #4a42e4cb;
+  box-shadow: 1px 1px 1px #0f0f9f;
+  -webkit-box-reflect: below 3px linear-gradient(transparent, #4a42e4cb);
+}
